@@ -4,7 +4,7 @@ Just deploy the bot with original repo
 
 BMW MD
 
-Made by dev Ibrahim Adams
+Made by de Kelvin
 
 
                  _.u[[/;:,.         .odMMMMMM'
