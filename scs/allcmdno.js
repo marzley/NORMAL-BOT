@@ -49,7 +49,7 @@ let menuMsg = `
 > 📅 ᴅᴀᴛᴇ: ${date} 
 
 
-> Made by : ©Ibrahim Adams 
+> Made by : ©Sir Kelvin
 `;
 
    var lien = mybotpic();
@@ -130,12 +130,12 @@ const date = moment().format('DD/MM/YYYY');
 > https://github.com/IBRAHIM-TECH-AI/IBRAHIM-ADAMS-INFO⁠
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV* : *Ibrahim Adams*
+│❒⁠⁠⁠⁠ *DEV* : *Sir Kelvin*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-     𝑰𝑩𝑹𝑨𝑯𝑰𝑴 𝑨𝑫𝑨𝑴𝑺 𝑺𝑪𝑰𝑬𝑵𝑪𝑬
+     Marzley tech science
 
 ❒────────────────────❒`;
 
@@ -143,12 +143,13 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
+ w       zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
         repondre("🥵🥵 Menu erreur " + e);
-    }
+    },q
+
 } 
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
