@@ -97,7 +97,7 @@ else {
 adams({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING BMW, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y\n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@ibrahimaitech] \n\n\n𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝒃𝒚 𝑰𝒃𝒓𝒂𝒉𝒊𝒎 𝑨𝒅𝒂𝒎𝒔") 
+  repondre("THANK YOU FOR CHOOSING BMW, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y\n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@ibrahimaitech] \n\n\n𝑪𝒓𝒆𝒂𝒕𝒆𝒅 𝒃𝒚 Marzley Tech") 
   await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING BWM XMD MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
