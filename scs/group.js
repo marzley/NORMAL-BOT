@@ -34,7 +34,7 @@ adams({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   tag +=`
   
 ╭─────────────━┈⊷ 
-│🔰 𝐁𝐌𝐖 𝐌𝐃 𝐓𝐀𝐆
+│🔰 𝐁𝐌𝐖 𝐌𝐃 𝐓𝐀𝐆 
 ╰─────────────━┈⊷ \n
 │👥 *Group* : ${nomGroupe} 
 │👤 *Hey😀* : *${nomAuteurMessage}* 
@@ -75,7 +75,7 @@ adams({ nomCom: "link", categorie: 'Group', reaction: "🙋" }, async (dest, zk,
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Group link :${lien} \n\n©𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐝𝐚𝐦𝐬 𝐒𝐜𝐢𝐞𝐧𝐜𝐞`
+Group link :${lien} \n\n© Marzley Tech `
   repondre(mess)
 
 
