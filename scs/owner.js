@@ -57,9 +57,9 @@ adams({ nomCom: "dev", categorie: "General", reaction: "🚘" }, async (dest, zk
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: " Mr Ibrahim adams", numero: "254710772666" },
-      { nom: "᚛Sir Ibrahim Adams᚜", numero: "254739937062" },
-      { nom: "Mr Adams", numero: "254739937062" },
+      { nom: " Mr Kelvin wanyoike", numero: "254745789590" },
+      { nom: "᚛Sir Kelvin᚜", numero: "254756781458" },
+      { nom: "Mr Kelvin", numero: "254756781458" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
