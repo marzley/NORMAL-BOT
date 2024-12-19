@@ -43,7 +43,7 @@ adams({
   const { arg, repondre } = commandeOptions;
   
   if (!arg[0] || arg === "") {
-    repondre("Give me a query.\n*Example: .google What is a bot.*");
+    repondre("Give me a query.\n*Example: .google Who is Marzley...*");
     return;
   }
 
